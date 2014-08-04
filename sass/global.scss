@@ -1,0 +1,48 @@
+@import "mixins";
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper div {
+    float: left;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 100px;
+    position: relative;
+    margin: 2%;
+    flex: 0 0 48%;
+}
+
+#wrapper {
+    display: felx;
+    flex-row: row wrap;
+    justify-content: space-between;
+}
+
+#first {
+    min-width: 170px;
+}
+
+#second {
+    min-width: 350px;
+}
+
+#third {
+    min-width: 200px;
+}
+
+.clearfix {
+    &:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: "";
+        clear: both;
+        height: 0;
+    }
+}

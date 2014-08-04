@@ -1,0 +1,52 @@
+/* line 3, ../sass/global.scss */
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* line 7, ../sass/global.scss */
+a {
+  color: #00B7FF;
+}
+
+/* line 11, ../sass/global.scss */
+#wrapper div {
+  float: left;
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 100px;
+  position: relative;
+  margin: 2%;
+  flex: 0 0 48%;
+}
+
+/* line 21, ../sass/global.scss */
+#wrapper {
+  display: felx;
+  flex-row: row wrap;
+  justify-content: space-between;
+}
+
+/* line 27, ../sass/global.scss */
+#first {
+  min-width: 170px;
+}
+
+/* line 31, ../sass/global.scss */
+#second {
+  min-width: 350px;
+}
+
+/* line 35, ../sass/global.scss */
+#third {
+  min-width: 200px;
+}
+
+/* line 40, ../sass/global.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
